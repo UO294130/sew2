@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Formula 1 calendario</title>
+    <link rel= "icon" href="multimedia/imágenes/logo.ico"/>
+    <!-- AUTOR -->
+    <meta name = "author" content = "Sergio Pérez Arias"/>
+    <!-- DESCRIPCION -->
+    <meta name = "description" content = "Apliación libre ECMAscript"/>
+    <!-- PALABRAS CLAVE-->
+    <meta name = "keywords" content = "Formula 1, api libre"/>
+    <!-- VENTANA GRAFICA-->
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/here.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> 
+	<!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1>
+            <a href = "index.html" title = "Enlace a inicio"> F1 Desktop</a>
+        </h1>
+    
+        <nav class = "active">
+            <a href = "index.html" title = "Enlace a inicio" > Inicio</a>
+            <a href = "piloto.html" title = "Enlace a informacion del piloto"> Piloto</a>
+            <a href = "noticias.html" title = "Enlace a las noticias" > Noticias</a>  
+            <a href = "calendario.html" title = "Enlace al calendario"> Calendario</a>
+            <a href = "meteorologia.html" title = "Enlace a la meteorologia" > Meteorologia</a>
+            <a href = "circuito.html" title = "Enlace a los circuitos" class = "active"> Circuito</a>
+            <a href = "viajes.html"  title = "Enlace a los viajes"> Viajes</a>
+            <a href = "juegos.html" title = "Enlace a los juegos" > Juegos</a>
+        </nav>
+    </header>
+
+    <p>
+        <a href="index.html" title ="Enlace a inicio"> Estás es: Inicio >> Api Libre </a>
+    </p>
+
+    <div id="userInfo">
+        <p id="userLocation">Obteniendo ubicación...</p>
+        <p id="favoriteDriver">Piloto favorito: No seleccionado</p>
+    </div>
+
+    <div id="map"></div>
+    <canvas id="raceCanvas" width="600" height="200"></canvas>
+
+    <!-- Incluir la librería de Leaflet para mostrar el mapa -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+    <!-- Incluir el archivo JavaScript que contiene la lógica -->
+    <script src="js/api.js"></script>
+</body>
+</html>

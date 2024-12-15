@@ -1,0 +1,210 @@
+/* Sergio Pérez Arias UO294130*/
+
+/* Colores: verde: #ACFF47, violeta: #DD9EE0, granate: #480A0A */
+/*Especificidad 001*/
+
+header{
+    background-color: lightgreen;
+}
+
+h1 a{
+    background-color: lightgreen;
+    color: #480A0A;
+    font-family:Arial, "Helvetica Neue",Helvetica,serif; 
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+h1{
+    background-color: lightgreen;
+    color: #480A0A;
+    font-family:Arial, "Helvetica Neue",Helvetica,serif; 
+    font-size: 3.2em;
+    text-decoration: none;
+}
+
+/*Especificidad 001*/
+h2{
+    color: yellow;
+    font-family:Arial, "Helvetica Neue" ,Helvetica,sans-serif; 
+    font-size: 3em;
+}
+
+/*Especificidad 001*/
+h3{
+    color: yellow;
+    font-family:Arial, "Helvetica Neue" ,Helvetica,sans-serif;  
+    font-size: 1.5em;
+}
+
+/*Especificidad 001*/
+h4{
+    color: yellow;
+    font-family:Arial, "Helvetica Neue",Helvetica,sans-serif; 
+    font-size: 1em;
+}
+
+h5{
+    color: yellow;
+    font-family:Arial, "Helvetica Neue",Helvetica,sans-serif; 
+    font-size: 0.8em;
+}
+
+/*Especificidad 012*/
+body > p a:first-of-type{ 
+    color: #ACFF47;
+	font-family:Arial,"Helvetica Neue" ,Helvetica,sans-serif; 
+    font-size: 1em;
+    text-decoration: none;
+}
+
+/*Especificidad 001*/
+p{ 
+    color: white;
+	font-family:Arial,"Helvetica Neue" ,Helvetica,sans-serif; 
+    font-size: 0.8em;
+}
+
+nav > a.active{
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+/*Especificidad 002*/
+header nav a{
+    color: #000485;
+    font-family: Arial,"Helvetica Neue" ,Helvetica,sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+/*Especificidad 002*/
+main > nav a{
+    background-color: lightgreen;
+    color: #000485;
+    font-family: Arial,"Helvetica Neue" ,Helvetica,sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+/*Especificidad 002*/
+nav a{
+    color: #000485;
+    font-family: Arial,"Helvetica Neue" ,Helvetica,sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    
+}
+
+
+/*Especificidad 001*/
+a{
+    color: #ACFF47;
+    font-family: Arial,"Helvetica Neue" ,Helvetica,sans-serif;
+    font-size: 1em;
+}
+
+
+/*Especificidad 002*/
+ul li{
+    color: white;
+    font-family: Arial,"Helvetica Neue" ,Helvetica,sans-serif;
+    list-style-type: "\1F449";
+    font-size: 0.8em;
+}
+
+
+
+/*Especificidad 002*/
+ol li{
+    color: white;
+    font-family: Arial,"Helvetica Neue" ,Helvetica,sans-serif;
+    list-style-type: "\1f3c1";
+    font-size: 0.8em;
+}
+
+/*Especificidad 002*/
+ul ol li{
+    color: white;
+    font-family: Arial,"Helvetica Neue" ,Helvetica,sans-serif;
+    list-style-type: "\1f3c6";
+    font-size: 0.8em;
+}
+
+/*Especificidad 002*/
+dl dt {
+    color: #ACFF47;
+    font-family: Arial,"Helvetica Neue" ,Helvetica,sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+
+}
+
+/*Especificidad 001*/
+tr,td,th{
+    border: 0.2em outset aquamarine;
+    padding: 0.2em;
+}
+
+tr:first-child{
+    color: yellow;
+    font-family: Arial,"Helvetica Neue" ,Helvetica,sans-serif;
+    font-size: 1em;
+}
+  
+tr th:first-of-type{
+    color: yellow;
+    font-family: Arial,"Helvetica Neue" ,Helvetica,sans-serif;
+    font-size: 1em;
+}
+
+
+
+/*Especificidad 001*/
+caption{
+    color: yellow;
+}
+
+/*Especificidad 001*/
+body{
+    background-color: black;
+    color: white;
+    font-family:Arial,"Helvetica Neue" ,Helvetica,sans-serif; 
+}
+
+video {
+    width: 90%;
+    max-width: 10em ;
+    height: auto;
+}
+
+main > img {
+    width: 100%;
+    height:50vw; 
+    
+}
+
+main > div{
+    width:50%; 
+    height:50vw; 
+    top: 8em;
+    align-items: center;
+}
+    
+
+@media screen and (max-width: 465px) {
+    p a:first-of-type {
+        display: none;
+    }
+}
+
+
+
+
+
+

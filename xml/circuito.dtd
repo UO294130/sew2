@@ -1,0 +1,55 @@
+<!ELEMENT circuitos (circuito+)>
+<!ELEMENT circuito  (datosCircuito, recursosExternos, ubicacionesCircuito)>
+<!ATTLIST circuito nombre CDATA #REQUIRED>
+<!ELEMENT datosCircuito (datosPista, horarioCircuito, datosCarrera, localizacionCircuito)>
+<!ELEMENT datosPista (longitudCarrera, anchuraMedia)>
+<!ELEMENT longitudCarrera (#PCDATA)>
+<!ATTLIST longitudCarrera unidad CDATA #REQUIRED>
+<!ELEMENT anchuraMedia (#PCDATA)>
+<!ATTLIST anchuraMedia unidad CDATA #REQUIRED>
+
+<!ELEMENT horarioCircuito (fechaCarrera, horaCarrera)>
+<!ELEMENT fechaCarrera (#PCDATA)>
+<!ELEMENT horaCarrera (#PCDATA)>
+
+
+<!ELEMENT datosCarrera (numeroVueltas)>
+<!ELEMENT numeroVueltas (#PCDATA)>
+
+<!ELEMENT localizacionCircuito (localidad, pais)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+
+<!ELEMENT recursosExternos (referencias, multimedia)>
+<!ELEMENT referencias (referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+<!ATTLIST referencia descripcion CDATA #REQUIRED>
+<!ELEMENT multimedia (imagenes,videos)>
+<!ELEMENT imagenes (imagen+)>
+<!ELEMENT imagen (enlace)>
+<!ATTLIST imagen descripcion CDATA #REQUIRED>
+
+<!ELEMENT videos (video*)>
+<!ELEMENT video (enlace)>
+<!ATTLIST video descripcion CDATA #REQUIRED>
+
+<!ELEMENT enlace (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+
+
+<!ELEMENT ubicacionesCircuito (coordenadasSalida, tramosCircuito)>
+<!ELEMENT coordenada (longitud, latitud, altitud)>
+<!ELEMENT longitud (#PCDATA)>
+<!ATTLIST longitud unidad CDATA #REQUIRED>
+<!ELEMENT latitud (#PCDATA)>
+<!ATTLIST latitud unidad CDATA #REQUIRED>
+<!ELEMENT altitud (#PCDATA)>
+<!ATTLIST altitud unidad CDATA #REQUIRED>
+<!ELEMENT coordenadasSalida (coordenada)>
+
+<!ELEMENT tramosCircuito (tramo+)>
+<!ELEMENT tramo (distancia, coordenada, numeroSector)>
+
+<!ELEMENT distancia (#PCDATA)>
+<!ATTLIST distancia unidad CDATA #REQUIRED>
+<!ELEMENT numeroSector (#PCDATA)>

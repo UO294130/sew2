@@ -1,0 +1,77 @@
+/* Sergio Pérez Arias UO294130*/
+
+/*Especificidad 001*/
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 12.4em;
+    padding: 0.4em 0.6em;
+}
+
+/*Especificidad 001*/
+h1{
+    margin: 0;
+    flex-shrink: 0;
+}
+
+/*Especificidad 001*/
+h2,h3,h4,h5{
+    margin: 0.5em; 
+    padding: 0.2em;
+}
+
+/*Especificidad 001*/
+p{
+    margin: 1.3em;
+    padding: 0.6em;
+}
+
+/*Especificidad 001*/
+aside{
+
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+/*Especificidad 001*/
+img, video{
+    display: block;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    max-width: 75%;
+    height:auto;
+}
+
+/*Especificidad 001*/
+audio{
+    display: block;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+/*Especificidad 001*/
+table{
+    text-align: center;
+    margin: 2.5em;
+}
+
+/*Especificidad 001*/
+caption{
+    text-align: left;
+}
+
+/*Especificidad 001*/
+a{
+    margin: 0.5em;
+    padding: 0.1em 0.1em;
+}
+

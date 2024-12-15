@@ -1,0 +1,97 @@
+/* Sergio Pérez Arias UO294130*/
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: auto auto auto auto;
+    gap: 1em;
+    width: 4em;
+    max-width: 20em;
+    margin-left: 10em;
+    padding: 1em;
+    align-items: start;
+    transition: all 2s ease;
+} 
+
+main h2 {
+    grid-column: span 4;
+    text-align: center;
+    font-size: 4em;
+}
+
+main p{
+    grid-row: 4; 
+    grid-column: span 4;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 2em;
+
+}
+
+main > div {
+    aspect-ratio: 1; 
+    border-radius: 100%;
+    background-color:white;
+    border: 0.4em solid #09f788; 
+    height: 15em;
+    width: calc(90%);
+}
+
+main button:first-of-type {
+    grid-column: span 2; 
+    font-size: 1em;
+    height: 2em;
+    width: 7em;
+    justify-self: end;
+    margin-top: 3em;
+    margin-right: 2em;
+}
+
+main button:nth-of-type(2) {
+    grid-column: span 2; 
+    font-size: 1em;
+    height: 2em;
+    width: 7em;
+    justify-self: start;
+    margin-top: 3em;
+    margin-left: 2em;
+}
+
+@keyframes encender {
+    from {background-color:white;}
+    to {background-color:  red;}
+} 
+
+@keyframes out {
+    from {background-color:red;}
+    to {background-color:  white;}
+}
+
+main.load div {
+    animation-name: encender;
+ 
+    animation-fill-mode: forwards;
+}
+
+main.load div:first-of-type {
+    animation-delay: 0s; 
+}
+
+main.load div:nth-of-type(2) {
+    animation-delay: 0.5s; 
+}
+
+main.load div:nth-of-type(3) {
+    animation-delay: 1s; 
+}
+
+main.load div:nth-of-type(4) {
+    animation-delay: 1.5s; 
+}
+
+main.unload div {
+    animation-name: out;
+    animation-fill-mode: forwards;
+}
+
+

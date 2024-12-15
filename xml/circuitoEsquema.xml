@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<circuitos 
+xmlns="http://www.uniovi.es"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation ="http://www.uniovi.es circuito.xsd">
+
+<circuito nombre="Red Bull Ring">
+    <datosCircuito>
+        <datosPista>
+            <longitudCarrera unidad = "km">4.318</longitudCarrera>
+            <anchuraMedia unidad = "m">12.5</anchuraMedia>
+        </datosPista>
+        
+        <horarioCircuito>
+            <fechaCarrera> 2024-06-30 </fechaCarrera>
+            <horaCarrera >15:00:00 </horaCarrera>
+        </horarioCircuito>
+        
+        <datosCarrera>
+            <numeroVueltas>71</numeroVueltas>
+        </datosCarrera>
+        
+        <localizacionCircuito>
+            <localidad>Knittelfeld</localidad>
+            <pais>Austria</pais>
+        </localizacionCircuito>
+    </datosCircuito>
+    <recursosExternos>
+        <referencias>
+            <referencia descripcion = "referencia 1"> https://www.dazn.com/es-ES/news/motor/circuito-red-bull-ring-donde-esta-como-es-caracteristicas-como-llegar-fotos-escenario-gp-austria-mundial-f1-motogp/11mzmm2gb230a1fcbe6anph2tc </referencia>
+            <referencia descripcion = "referencia 2"> https://es.wikipedia.org/wiki/Red_Bull_Ring </referencia>
+            <referencia descripcion = "referencia 2"> https://www.statsf1.com/es/circuit-spielberg.aspx </referencia>
+        </referencias>
+
+        <multimedia>
+            <imagenes>
+                <imagen descripcion = "Imagen del circuito"> 
+                <enlace> circuito.jpg </enlace> 
+                </imagen>
+                <imagen descripcion = "Imagen del circuito visto desde arriba"> 
+                    <enlace> red-bull-ring-vista-desde-arriba.jpg </enlace> 
+                </imagen>
+                <imagen descripcion = "Imagen de la salida del circuito"> 
+                    <enlace> Salida-redbullring.webp  </enlace> 
+                </imagen>
+            </imagenes>
+
+            <videos>
+                <video descripcion ="Salida de la carrera">
+                    <enlace> inicio_carrera.mp4</enlace>
+                </video>
+                <video descripcion = "Final de la carrera">
+                    <enlace> final_carrera.mp4 </enlace>
+                </video>
+            </videos>
+
+        </multimedia>
+    </recursosExternos>
+
+
+<ubicacionesCircuito>
+    <coordenadasSalida>
+        <coordenada>
+            <longitud unidad = "dd"> 14.764722 </longitud>
+            <latitud unidad = "dd"> 47.220000 </latitud>
+            <altitud unidad = "m"> 678 </altitud>
+        </coordenada>
+    </coordenadasSalida>
+
+    <tramosCircuito>
+         <tramo>
+            
+            <distancia unidad = "m"> 290 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.761029 </longitud>
+                <latitud unidad = "dd"> 47.219275 </latitud>
+                <altitud unidad = "m"> 691 </altitud>
+            </coordenada>
+            <numeroSector> 1 </numeroSector>
+        </tramo>
+
+        <tramo>
+            <distancia unidad = "m"> 25.79 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.760855 </longitud>
+                <latitud unidad = "dd"> 47.219331 </latitud>
+                <altitud unidad = "m"> 694 </altitud>
+            </coordenada>
+            <numeroSector> 1 </numeroSector>
+        </tramo>
+
+        <tramo>
+            <distancia unidad = "m"> 94.04 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.760162 </longitud>
+                <latitud unidad = "dd">  47.220050 </latitud>
+                <altitud unidad = "m"> 699 </altitud>
+            </coordenada>
+            <numeroSector> 1 </numeroSector>
+        </tramo>
+        
+        
+        <tramo>
+            <distancia unidad = "m"> 252.2 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.758205 </longitud>
+                <latitud unidad = "dd"> 47.222028 </latitud>
+                <altitud unidad = "m"> 699 </altitud>
+            </coordenada>
+            <numeroSector> 1 </numeroSector>
+        </tramo>
+
+        <tramo>
+            <distancia unidad = "m"> 277.89 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.7563657 </longitud>
+                <latitud unidad = "dd">  47.224467 </latitud>
+                <altitud unidad = "m"> 707 </altitud>
+            </coordenada>
+            <numeroSector> 2 </numeroSector>
+        </tramo>
+        
+        <tramo>
+            <distancia unidad = "m"> 285.27 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.753998 </longitud>
+                <latitud unidad = "dd"> 47.226153 </latitud>
+                <altitud unidad = "m"> 743 </altitud>
+            </coordenada>
+            <numeroSector> 2 </numeroSector>
+        </tramo>
+
+        <tramo>
+            <distancia unidad = "m"> 14.86 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.754095 </longitud>
+                <latitud unidad = "dd"> 47.226299 </latitud>
+                <altitud unidad = "m"> 745 </altitud>
+            </coordenada>
+            <numeroSector> 2 </numeroSector>
+        </tramo>
+
+        <tramo>
+            <distancia unidad = "m"> 184.35 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.756111 </longitud>
+                <latitud unidad = "dd"> 47.226389 </latitud>
+                <altitud unidad = "m"> 743 </altitud>
+            </coordenada>
+            <numeroSector> 2 </numeroSector>
+        </tramo> 
+
+        <tramo> 
+            <distancia unidad = "m"> 420.34 </distancia>
+            <coordenada>
+                <longitud unidad = "DMS"> 14.761372 </longitud>
+                <latitud unidad = "DMS"> 47.225872 </latitud>
+                <altitud unidad = "m"> 725 </altitud>
+            </coordenada>
+            <numeroSector> 2 </numeroSector>
+        </tramo>
+
+        <tramo> 
+            <distancia unidad = "m"> 198.64 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.764376 </longitud>
+                <latitud unidad = "dd"> 47.225749 </latitud>
+                <altitud unidad = "m"> 715 </altitud>
+            </coordenada>
+            <numeroSector> 2 </numeroSector>
+        </tramo>
+
+        <tramo>  
+            <distancia unidad = "m"> 37.8 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.764562 </longitud>
+                <latitud unidad = "dd"> 47.225300 </latitud>
+                <altitud unidad = "m"> 713 </altitud>
+            </coordenada>
+            <numeroSector> 2 </numeroSector>
+        </tramo>
+
+        <tramo>
+            <distancia unidad = "m"> 92.98 </distancia>
+            <coordenada> 
+                <longitud unidad = "dd"> 14.763889 </longitud>
+                <latitud unidad = "dd"> 47.224722 </latitud>
+                <altitud unidad = "m"> 709 </altitud>
+            </coordenada>
+            <numeroSector> 2 </numeroSector>
+        </tramo>
+
+        <tramo> 
+            <distancia unidad = "m"> 82.43 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.762652 </longitud>
+                <latitud unidad = "dd"> 47.224376 </latitud>
+                <altitud unidad = "m"> 707 </altitud>
+            </coordenada>
+            <numeroSector> 2 </numeroSector>
+        </tramo>
+
+        <tramo> 
+            <distancia unidad = "m"> 119.45 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.761439 </longitud>
+                <latitud unidad = "dd"> 47.224423 </latitud>
+                <altitud unidad = "m"> 708 </altitud>
+            </coordenada>
+            <numeroSector> 2 </numeroSector>
+        </tramo>
+
+        <tramo> 
+            <distancia unidad = "m"> 147.01 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.759425 </longitud>
+                <latitud unidad = "dd"> 47.224644 </latitud>
+                <altitud unidad = "m"> 711 </altitud>
+            </coordenada>
+            <numeroSector> 2 </numeroSector>
+        </tramo>
+
+        <tramo> 
+            <distancia unidad = "m"> 65.42 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.758611 </longitud>
+                <latitud unidad = "dd"> 47.224167 </latitud>
+                <altitud unidad = "m"> 705 </altitud>
+            </coordenada>
+            <numeroSector> 2 </numeroSector>
+        </tramo>
+
+        <tramo>
+            <distancia unidad = "m"> 66.45 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.758629 </longitud>
+                <latitud unidad = "dd"> 47.223653 </latitud>
+                <altitud unidad = "m"> 705 </altitud>
+            </coordenada>
+            <numeroSector> 2 </numeroSector>
+        </tramo>
+
+        <tramo> 
+            <distancia unidad = "m"> 204.65 </distancia>
+            <coordenada>
+                <longitud unidad = "dd">14.759859 </longitud>
+                <latitud unidad = "dd"> 47.222224 </latitud>
+                <altitud unidad = "m"> 691 </altitud>
+            </coordenada>
+            <numeroSector> 2 </numeroSector>
+        </tramo>
+
+        <tramo> 
+            <distancia unidad = "m"> 63.23 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.760796 </longitud>
+                <latitud unidad = "dd"> 47.222101 </latitud>
+                <altitud unidad = "m"> 690 </altitud>
+            </coordenada>
+            <numeroSector> 3 </numeroSector>
+        </tramo>
+
+        <tramo>  
+            <distancia unidad = "m"> 55.22 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.761259 </longitud>
+                <latitud unidad = "dd"> 47.222324 </latitud>
+                <altitud unidad = "m"> 690 </altitud>
+            </coordenada>
+            <numeroSector> 3 </numeroSector>
+        </tramo>
+
+        <tramo>  
+            <distancia unidad = "m"> 83.28 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.761910 </longitud>
+                <latitud unidad = "dd"> 47.222812 </latitud>
+                <altitud unidad = "m"> 693 </altitud>
+            </coordenada>
+            <numeroSector> 3 </numeroSector>
+        </tramo>
+
+        <tramo>  
+            <distancia unidad = "m"> 86.46 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.763084 </longitud>
+                <latitud unidad = "dd"> 47.223130 </latitud>
+                <altitud unidad = "m"> 693 </altitud>
+            </coordenada>
+            <numeroSector> 3 </numeroSector>
+        </tramo>
+
+        <tramo> 
+            <distancia unidad = "m"> 462.26 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.769242 </longitud>
+                <latitud unidad = "dd"> 47.223219 </latitud>
+                <altitud unidad = "m"> 698 </altitud>
+            </coordenada>
+            <numeroSector> 3 </numeroSector>
+        </tramo>
+
+        <tramo>  
+            <distancia unidad = "m"> 53.87 </distancia>
+            <coordenada>
+                <longitud unidad = "DMS"> 14.770022 </longitud>
+                <latitud unidad = "DMS"> 47.222902 </latitud>
+                <altitud unidad = "m"> 696 </altitud>
+            </coordenada>
+            <numeroSector> 3 </numeroSector>
+        </tramo>
+
+        <tramo> 
+            <distancia unidad = "m"> 180.43 </distancia>
+            <coordenada>
+                <longitud unidad = "DMS">14.770698 </longitud>
+                <latitud unidad = "DMS"> 47.221319 </latitud>
+                <altitud unidad = "m"> 685 </altitud>
+            </coordenada>
+            <numeroSector> 3 </numeroSector>
+        </tramo>
+
+        <tramo> 
+            <distancia unidad = "m"> 27.98 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.770525 </longitud>
+                <latitud unidad = "dd"> 47.221200 </latitud>
+                <altitud unidad = "m"> 682 </altitud>
+            </coordenada>
+            <numeroSector> 3 </numeroSector>
+        </tramo>
+
+        <tramo>  
+            <distancia unidad = "m"> 108.56 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.769380 </longitud>
+                <latitud unidad = "dd"> 47.220800 </latitud>
+                <altitud unidad = "m"> 680 </altitud>
+            </coordenada>
+            <numeroSector> 3 </numeroSector>
+        </tramo>
+
+        <tramo> 
+            <distancia unidad = "m"> 340.95 </distancia>
+            <coordenada>
+                <longitud unidad = "dd"> 14.764722 </longitud>
+                <latitud unidad = "dd"> 47.220000 </latitud>
+                <altitud unidad = "m"> 678 </altitud>
+            </coordenada>
+            <numeroSector> 3 </numeroSector>
+        </tramo>
+    </tramosCircuito>
+</ubicacionesCircuito>
+</circuito>
+</circuitos>
+   
